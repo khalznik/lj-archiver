@@ -1,0 +1,21 @@
+# Build directories
+/build/
+/output/
+/out/
+
+# Visual Studio
+/.vs/
+
+# CMake
+CMakeUserPresets.json
+
+# MSVC
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.exe
+*.dll
+
+# Temporary
+*.tmp
