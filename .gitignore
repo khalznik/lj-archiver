@@ -1,7 +1,7 @@
-# Build directories
+# Build output
 /build/
-/output/
 /out/
+/output/
 
 # Visual Studio
 /.vs/
