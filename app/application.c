@@ -1,4 +1,4 @@
-#include "application.h"
+#include "lj_application.h"
 
 int lj_application_run(void)
 {
