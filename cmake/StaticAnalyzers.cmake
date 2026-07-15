@@ -14,8 +14,9 @@ if(LJ_ENABLE_CLANG_TIDY)
     else()
 
         message(WARNING
-            "clang-tidy was requested but was not found."
-        )
+            "clang-tidy was requested but was not found. "
+            "Static analysis has been disabled."
+)
 
     endif()
 
@@ -37,8 +38,9 @@ if(LJ_ENABLE_CPPCHECK)
     else()
 
         message(WARNING
-            "cppcheck was requested but was not found."
-        )
+            "cppcheck was requested but was not found. "
+            "Static analysis has been disabled."
+)
 
     endif()
 
